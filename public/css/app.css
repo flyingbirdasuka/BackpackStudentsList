@@ -1,0 +1,73 @@
+.starter-template {
+	margin-top: 100px ;
+}
+
+.text-center {
+    display: flex;
+}
+
+.card-title-center {
+    align-self: center;
+}
+
+ul.navbar-nav {
+    margin: 0px 20px;
+}
+
+li.lesson::after {
+    content: '/';
+    margin: 5px;
+}
+
+li:last-child:after { 
+	content: " "; 
+}
+
+.bg-blue{
+	background-color: #7b83ed;
+}
+
+.lesson > a{
+    color: #7b83ed!important;
+}   
+
+.lesson > a:hover{
+    color: #ffffff!important;
+} 
+
+a.colored {
+    color: #7b83ed!important;
+}
+
+a.colored:hover {
+    color: #4aeff7!important;
+}
+
+a.nav-link {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+a.nav-link:hover {
+	color: #4aeff7;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+body {
+	background-image: url(/img/stage.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #e8e1e1!important;
+}
+
+.album {
+	color: black;
+}
+
+.card {
+    margin: 5px 0px!important;
+}
