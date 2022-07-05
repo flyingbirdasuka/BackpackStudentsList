@@ -1,6 +1,4 @@
  @extends('layouts/app')
-
-
 	@section('content')
 	<ul class="breadcrumb">
 			<li class="lesson"><a href="/students">All lessons</a></li>
@@ -12,8 +10,7 @@
 			@endif	
 	<div class="album py-5 bg-light">
         <div class="container">
-          <div class="row">
-            
+          <div class="row">     
 		@if (count($students)>0)
 			<p><?php echo count($students) ?> member<?php echo count($students)>1 ? 's': '' ?></p>
 			@foreach($students as $student)
@@ -28,8 +25,7 @@
 				</div>
 			</div>	
 			@endforeach
-		@endif
-			
+		@endif		
 		   </div>
 		</div>
 	</div>	   	
